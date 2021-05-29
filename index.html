@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Fake Shop | Main</title>
+  <meta name="description" content="Интернет магазин одежды и обуви">
+  <meta name="Keywords" content="интернет магазин одежды, интернет магазин одежды больших размеров, интернет магазин одежды с бесплатной доставкой, купить в интернет магазине одежду, интернет магазин одежды с бесплатной доставкой и оплатой при получении, интернет магазин мужской одежды">
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<header>
+	<div class="header_wrapper">
+		
+		<div class="header_nav">
+
+			<div class="burger_menu">
+					
+				<div class="burger_menu_wrapper" onclick="showSubMenu()">
+						<span></span>
+						<span></span>
+						<span></span>
+				</div>
+
+				<ul class="sub_menu_list" id="subMenuList">
+						<li><a href="index.html">Main</a></li>
+						<li><a href="exclusive/exclusive.html">Exclusive</a></li>
+						<li><a href="contacts/contacts.html">Contacts</a></li>
+				</ul>
+
+			</div>
+			
+			<div class="logo"><a href="index.html">
+				<svg data-name="Layer 1" height="88" viewBox="0 0 88 88" width="88" xmlns="http://www.w3.org/2000/svg"><title/><path d="M33.32,54.87c.1-.13,3.66-6.35,3.7-6.52a1,1,0,0,0-.7-.94h0a.94.94,0,0,0-1.12.41c-.17.28-3.2,5.49-3.49,6a.93.93,0,0,0,.34,1.23A1,1,0,0,0,33.32,54.87Z"/><path d="M52.94,47.31a1,1,0,0,0-.81,1.5q3.27,5.64,3.54,6a.9.9,0,0,0,1.26.19.92.92,0,0,0,.35-1.18c-.16-.33-2.51-4.36-3.5-6.06A.86.86,0,0,0,52.94,47.31Z"/><path d="M61.62,36.45v1.91h1.92v-2a1,1,0,0,0-1.92.06Z"/><path d="M71.79,62.65l-.43-.09c0-.08-1-25.73-2.41-40.24l-.57-2a1.79,1.79,0,0,0-1.21-.84Q57.17,16.8,54,13.75a9.41,9.41,0,0,1-.83-.71h0a1,1,0,0,0-1-.29A33.51,33.51,0,0,1,44,14.1a33,33,0,0,1-8.36-1.29,1.05,1.05,0,0,0-1.08.34,5.87,5.87,0,0,1-.72.69A9.24,9.24,0,0,1,30.49,16a47.84,47.84,0,0,1-8.32,3.29,3,3,0,0,0-1.47,1q-1.92,2.33-4.08,42.24c-.81.11-1.06.37-1.07,1.13,0,1.18,0,2.35,0,3.53,0,.79.22,1.06,1,1.24l-.19,5.84a.89.89,0,0,0,.92,1q10.95,0,11.09,0a.87.87,0,0,0,.79-.89c0-1.24,0-2.47,0-3.71,0-.2-.07-.27-.27-.27a11.63,11.63,0,0,1-1.32,0c-.3,0-.39.08-.38.38v2.57H18.06l.23-4.94h4.08V62.65H18.5q2.2-39.09,4-41.33a93.23,93.23,0,0,0,8.8-3.57,12.34,12.34,0,0,0,1.46-.8c0,.06-2.58,5.9-3.06,7a.44.44,0,0,0-.06.16.92.92,0,0,0,.64,1.13q1.47.48,6.85,2.13L35.2,32.3a1,1,0,0,0,.53,1.49c.84.49,10.8,6.23,10.88,6.53s-.92,8.88-2.76,26.17H26.34V36.61a1,1,0,0,0-2,0V67.37a.94.94,0,0,0,1,1l20.37,0v0H62.49a1,1,0,0,0,.92-.38,1.88,1.88,0,0,0,.22-.8c0-.31,0-.62,0-.93V64.46q0-23.22,0-24.08c0-.1-.1-.27-.16-.27h-1.8V66.47H45.91c.69-6.57,2.75-26.66,2.65-27.35L47.2,29.56a5,5,0,0,0-.84-1.95Q42,21.39,37.68,15.19a26.68,26.68,0,0,0,12.47,0q-.06.12-5.19,7.26l1.4,1.67,5.93-8.51L56,23.29l-6.44,1.79,1.91,6.18-2.44,1.17.32,1.86a.34.34,0,0,0,0,.14C51.12,33.6,52.32,33,53,32.62a1,1,0,0,0,.47-1.1c0-.13-.53-1.83-1.5-5.08l3.52-1c.76-.22,1.53-.41,2.27-.66a.88.88,0,0,0,.51-1.22c0-.09-1.12-2.34-3.26-6.76a57.66,57.66,0,0,0,11.28,4.48c.39,0,.58.36.58,1q.87,6,2.46,40.31H65.61v5.83l3.81,0v4.88H60.9V70.4l-2,0c0,1.75,0,3.06,0,3.91,0,.62.29.94.91.94s9.73,0,10.6,0a1,1,0,0,0,1-1c0-.08,0-5.84,0-5.85.83,0,1.11-.43,1.11-1.18V63.53A.9.9,0,0,0,71.79,62.65ZM20.44,64.53v.9c0,.29,0,.58,0,.86,0,.06-.1.19-.16.19H17.49v-2ZM45,29.11a.93.93,0,0,1,.15.39q.26,1.68,1.17,8.21l-9.12-5.3,2.49-6.23L32,23.75l3.59-8h0Zm25.5,35.43V66c0,.42-.07.48-.49.49H67.84c-.21,0-.27-.06-.27-.26V64.53Z"/></svg>
+			</a></div>
+
+			<nav class="nav_left">
+
+				<ul class="nav_left_list">
+					<li><a href="index.html">Main</a></li>
+					<li><a href="exclusive/exclusive.html">Exclusive</a></li>
+					<li><a href="contacts/contacts.html">Contacts</a></li>
+				</ul>
+
+			</nav>
+
+			<nav class="nav_right">
+				<ul class="nav_right_list">
+					<li onclick="showSearch()">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><g><g><path fill="#000" d="M16.003 14.631l-1.372 1.372-4.573-4.573v-.731l-.274-.275a5.724 5.724 0 0 1-3.842 1.464A5.933 5.933 0 0 1-.002 5.943 5.933 5.933 0 0 1 5.942-.002a5.933 5.933 0 0 1 5.945 5.945 5.724 5.724 0 0 1-1.463 3.84l.274.275h.732zm-5.945-8.688a4.099 4.099 0 0 0-4.116-4.116 4.098 4.098 0 0 0-4.115 4.116 4.099 4.099 0 0 0 4.115 4.115 4.099 4.099 0 0 0 4.116-4.115z"/></g></g></svg>
+						<span>Search</span>
+					</li>
+					<li id="cart" onclick="showCart()">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 17 14"><g><g><path fill="#000" d="M16.082 5.132c.44 0 .734.294.734.733v.22l-1.836 6.812a1.414 1.414 0 0 1-1.395 1.1H4.04c-.661 0-1.248-.514-1.395-1.1L.809 6.085v-.22c0-.44.294-.733.734-.733h3.525L8.298.298c.147-.22.368-.294.588-.294.22 0 .44.147.588.294l3.23 4.834zm-4.993 0L8.886 1.91 6.683 5.132z"/></g></g></svg>
+						<span>Cart (<span id="amountGoods">0</span>)</span>
+					</li>
+					<li onclick="showSignIn()">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><g><g><path fill="#000" d="M8 10c2.667 0 8 1.335 8 4v2H0v-2c0-2.665 5.334-4 8-4 0 0-2.666 0 0 0zM8 0c2.209 0 4 1.793 4 4s-1.791 4-4 4C5.793 8 4 6.207 4 4s1.792-4 4-4c0 0-2.208 0 0 0z"/></g></g></svg>
+						<span>Sign in</span>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+
+
+	</div>
+
+	<!-- SEARCH -->
+	<div class="search_container">
+		<div class="search_close" onclick="closeSearch()">❌</div>
+		<div class="search_title">SEARCH ON BREE</div>
+		<div class="search_subtitle">Start typing</div>
+		<div class="search_input">
+			<input type="search" placeholder="START-TYPING">
+		</div>
+		<button onclick="closeSearch()">Search</button>
+	</div>
+
+	<!-- SIGN IN -->
+	<div class="signIn_container" onclick="closeSignIn()">
+		<div class="sighIn_window" onclick="event.stopPropagation()">
+			<div class="signInClose" onclick="closeSignIn()">❌</div>
+			<div class="signIn_title">SIGN IN</div>
+			<div class="login">
+				<span>login</span>
+				<input type="text" placeholder="Login">
+			</div>
+			<div class="password">
+				<span>password</span>
+				<input type="password" placeholder="Password">
+			</div>
+			<div class="signIn_btn">
+				<button type="submit" onclick="closeSignIn()">SIGN IN</button>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+</header>	
+
+<div class="slider_wrapper">
+
+	<ul id="slides">
+		 <li class="slide showing"></li>
+		 <li class="slide"></li>
+		 <li class="slide"></li>
+		 <li class="slide"></li>
+		 <li class="slide"></li>
+	</ul>
+
+	<button class="controls" id="previous"><span>&lt;</span></button>
+	<button class="controls" id="next"><span>&gt;</span></button>
+	<button class="controls" id="pause">&#10074;&#10074;</button>
+
+</div>
+
+<div class="product_navigation">
+	<div class="product_filter" onclick="showFilter()">
+		<span>Filter</span>
+		<svg data-name="Layer 1" id="Layer_1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title/><path d="M47,12a2,2,0,0,0-2-2H24a2,2,0,0,0,0,4H45A2,2,0,0,0,47,12Z"/><path d="M3,14H8.35a6,6,0,1,0,0-4H3a2,2,0,0,0,0,4Zm11-4a2,2,0,1,1-2,2A2,2,0,0,1,14,10Z"/><path d="M45,22H37.65a6,6,0,1,0,0,4H45a2,2,0,0,0,0-4ZM32,26a2,2,0,1,1,2-2A2,2,0,0,1,32,26Z"/><path d="M22,22H3a2,2,0,0,0,0,4H22a2,2,0,0,0,0-4Z"/><path d="M45,34H28a2,2,0,0,0,0,4H45a2,2,0,0,0,0-4Z"/><path d="M18,30a6,6,0,0,0-5.65,4H3a2,2,0,0,0,0,4h9.35A6,6,0,1,0,18,30Zm0,8a2,2,0,1,1,2-2A2,2,0,0,1,18,38Z"/></svg>
+	</div>
+	<div class="product_sort" onclick="showSort()">
+		<span>Sort</span>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 26 26">
+		<g>
+		<path d="M11,3H1C0.4,3,0,3.4,0,4v2c0,0.6,0.4,1,1,1h10c0.6,0,1-0.4,1-1V4C12,3.4,11.6,3,11,3z"/>
+		<path d="m11,11h-10c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h10c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+		<path d="m11,19h-10c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h10c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+		<path d="m25.7,10.7l-1.4,1.4c-0.2,0.2-0.5,0.3-0.7,0.3-0.3,0-0.5-0.1-0.7-0.3l-2-2c-0.3-0.3-0.9-0.1-0.9,0.4v13.5c0,0.5-0.5,1-1,1h-2c-0.5,0-1-0.5-1-1v-22c0-0.3 0.1-0.5 0.3-0.7s0.5-0.3 0.7-0.3c0.3,0 0.5,0.1 0.7,0.3l8,8c0.2,0.2 0.3,0.4 0.3,0.7 0,0.3-0.1,0.5-0.3,0.7z"/>
+		  </g>
+		</svg>
+
+	</div>
+</div>
+
+<div class="sort_container">
+		<div class="sort_window">
+			<ul class="sort_list">
+				<li onclick="closeSort()">🔝 <span>First Best</span></li>
+				<li onclick="closeSort()">↑ <span>Cheap first</span></li>
+				<li onclick="closeSort()">↓ <span>First Expensive</span></li>
+			</ul>
+		</div>
+</div>
+
+<div class="filter_container">
+
+	<div class="filter_close" onclick="closeFilter()">❌</div>
+
+	<div class="shoes_type">
+			<div class="list_title">SHOES</div>
+			<ul class="type_list">
+				<li class="box__item">Boat Shoes</li>
+				<li class="box__item">Moccasins</li>
+				<li id="test36" class="box__item">Boots</li>
+				<li class="box__item">Espadrilles</li>
+				<li class="box__item">Lace Ups</li>
+				<li class="box__item">Loafers</li>
+				<li class="box__item">Monkstrap</li>
+				<li class="box__item">Sandal</li>
+				<li class="box__item">Sneakers</li>
+			</ul>
+		</div>
+
+		<hr>
+
+		<div class="shoes_size">
+
+			<div class="list_title">Size</div>
+			<ul class="size_list">
+				<li class="box__item">4</li>
+				<li class="box__item">5</li>
+				<li class="box__item">6</li>
+				<li class="box__item">7</li>
+				<li class="box__item">7.5</li>
+				<li class="box__item">8</li>
+				<li class="box__item">8.5</li>
+				<li class="box__item">9</li>
+				<li class="box__item">9.5</li>
+				<li class="box__item">10</li>
+				<li class="box__item">10.5</li>
+				<li class="box__item">11</li>
+				<li class="box__item">12</li>
+			</ul>
+
+			<div class="list_title">Colors</div>
+			<ul class="color_list">
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+				<li class="box__item"></li>
+			</ul>
+
+		</div>
+
+		<hr>
+
+			<div class="shoes_brands">
+			<div class="list_title">Brands</div>
+			<ul class="brands_list">
+				<li class="box__item">A.P.C.</li>
+				<li class="box__item">Acne Studios</li>
+				<li class="box__item">Adidas Originals</li>
+				<li class="box__item">Arc'teryx Veilance</li>
+				<li class="box__item">Bianca Chandôn</li>
+				<li class="box__item">Cmmn Swdn</li>
+				<li class="box__item">Comme des Garçons </li>
+				<li class="box__item">Common Projects</li>
+				<li class="box__item">Dime</li>
+				<li class="box__item">Engineered Garments</li>
+				<li class="box__item">Maison Margiela</li>
+				<li class="box__item">New Balance</li>
+				<li class="box__item">Our Legacy</li>
+				<li class="box__item">Proper Gang</li>
+				<li class="box__item">Puma</li>
+				<li class="box__item">Supreme</li>
+			</ul>
+		</div>
+
+	<div class="filter_check_btn">
+		<button type="submit" onclick="closeFilter()">Apply</button>
+	</div>
+
+	</div>
+
+
+
+<section class="product_block">
+	<div class="product_block_container" id="conteiner">
+		
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_1.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Nike</div>
+					<div class="product_card_subtitle">Air Max Tavas SD</div>
+					<div class="product_card_price">160.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Nike</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good as it can be, so when you wear it, you feel like you've got a leg up on the rest of the world.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_2.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Common Projects</div>
+					<div class="product_card_subtitle">Red Canvas & Leather</div>
+					<div class="product_card_price">410.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Projects</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_3.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Black Heart Logo Converse Edition</div>
+					<div class="product_card_price">160.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Garçons Play</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit like you've got a leg up on the rest of the world.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_2.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Common Projects</div>
+					<div class="product_card_subtitle">Red Canvas & Leather</div>
+					<div class="product_card_price">410.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Projects</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_1.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Nike</div>
+					<div class="product_card_subtitle">Air Max Tavas SD</div>
+					<div class="product_card_price">160.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Nike</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good as it can be, so when you wear it, you feel like you've got a leg up on the rest of the world.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_2.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Common Projects</div>
+					<div class="product_card_subtitle">Red Canvas & Leather</div>
+					<div class="product_card_price">410.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Projects</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_2.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Common Projects</div>
+					<div class="product_card_subtitle">Red Canvas & Leather</div>
+					<div class="product_card_price">410.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Projects</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_1.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Nike</div>
+					<div class="product_card_subtitle">Air Max Tavas SD</div>
+					<div class="product_card_price">160.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Nike</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good as it can be, so when you wear it, you feel like you've got a leg up on the rest of the world.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_2.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Common Projects</div>
+					<div class="product_card_subtitle">Red Canvas & Leather</div>
+					<div class="product_card_price">410.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Projects</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_1.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Nike</div>
+					<div class="product_card_subtitle">Air Max Tavas SD</div>
+					<div class="product_card_price">160.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Nike</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good as it can be, so when you wear it, you feel like you've got a leg up on the rest of the world.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+
+<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_img">
+						<img src="img/main/product_card_2.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Common Projects</div>
+					<div class="product_card_subtitle">Red Canvas & Leather</div>
+					<div class="product_card_price">410.00</div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Projects</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="product_card">
+
+				<div class="card__front">
+					<div class="product_card_exclusive">
+						<div class="exclusive">Exclusive</div>
+					</div>
+					<div class="product_card_img">
+						<img src="img/main/product_card_4.png" alt="product_card">
+					</div>
+					<div class="product_card_title">Comme des Garçons Play</div>
+					<div class="product_card_subtitle">Rod Laver Vintage - exclusive</div>
+					<div class="product_card_price">105.00<span>$600.00</span></div>					
+				</div>
+
+				<div class="card__back">
+					<div class="card__back_subtitle">Brand</div>
+					<div class="card__back_title">Comme des</div>
+					<div class="card__back_text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good.</div>
+					<div class="card__back_link">
+						<a href="product_page_full/product_page_full.html">Shop brand</a>
+					</div>
+				</div>
+
+		</div>
+<!-- Конец контейнера В1 -->
+	</div>
+
+<div class="product_pages">&lt; 0 ... <span>1</span> ... 12 &gt;</div>
+
+</section>
+
+<footer>
+	<div class="footer_wraper">
+		
+		<div class="footer_container">
+
+			<div class="footer_nav_body">
+
+				<div class="footer_nav">
+
+						<nav class="footer_menu">
+
+							<div class="footer_logo"><a href="index.html">
+								<svg data-name="Layer 1" height="88" viewBox="0 0 88 88" fill="#fff" width="88" xmlns="http://www.w3.org/2000/svg"><title/><path d="M33.32,54.87c.1-.13,3.66-6.35,3.7-6.52a1,1,0,0,0-.7-.94h0a.94.94,0,0,0-1.12.41c-.17.28-3.2,5.49-3.49,6a.93.93,0,0,0,.34,1.23A1,1,0,0,0,33.32,54.87Z"/><path d="M52.94,47.31a1,1,0,0,0-.81,1.5q3.27,5.64,3.54,6a.9.9,0,0,0,1.26.19.92.92,0,0,0,.35-1.18c-.16-.33-2.51-4.36-3.5-6.06A.86.86,0,0,0,52.94,47.31Z"/><path d="M61.62,36.45v1.91h1.92v-2a1,1,0,0,0-1.92.06Z"/><path d="M71.79,62.65l-.43-.09c0-.08-1-25.73-2.41-40.24l-.57-2a1.79,1.79,0,0,0-1.21-.84Q57.17,16.8,54,13.75a9.41,9.41,0,0,1-.83-.71h0a1,1,0,0,0-1-.29A33.51,33.51,0,0,1,44,14.1a33,33,0,0,1-8.36-1.29,1.05,1.05,0,0,0-1.08.34,5.87,5.87,0,0,1-.72.69A9.24,9.24,0,0,1,30.49,16a47.84,47.84,0,0,1-8.32,3.29,3,3,0,0,0-1.47,1q-1.92,2.33-4.08,42.24c-.81.11-1.06.37-1.07,1.13,0,1.18,0,2.35,0,3.53,0,.79.22,1.06,1,1.24l-.19,5.84a.89.89,0,0,0,.92,1q10.95,0,11.09,0a.87.87,0,0,0,.79-.89c0-1.24,0-2.47,0-3.71,0-.2-.07-.27-.27-.27a11.63,11.63,0,0,1-1.32,0c-.3,0-.39.08-.38.38v2.57H18.06l.23-4.94h4.08V62.65H18.5q2.2-39.09,4-41.33a93.23,93.23,0,0,0,8.8-3.57,12.34,12.34,0,0,0,1.46-.8c0,.06-2.58,5.9-3.06,7a.44.44,0,0,0-.06.16.92.92,0,0,0,.64,1.13q1.47.48,6.85,2.13L35.2,32.3a1,1,0,0,0,.53,1.49c.84.49,10.8,6.23,10.88,6.53s-.92,8.88-2.76,26.17H26.34V36.61a1,1,0,0,0-2,0V67.37a.94.94,0,0,0,1,1l20.37,0v0H62.49a1,1,0,0,0,.92-.38,1.88,1.88,0,0,0,.22-.8c0-.31,0-.62,0-.93V64.46q0-23.22,0-24.08c0-.1-.1-.27-.16-.27h-1.8V66.47H45.91c.69-6.57,2.75-26.66,2.65-27.35L47.2,29.56a5,5,0,0,0-.84-1.95Q42,21.39,37.68,15.19a26.68,26.68,0,0,0,12.47,0q-.06.12-5.19,7.26l1.4,1.67,5.93-8.51L56,23.29l-6.44,1.79,1.91,6.18-2.44,1.17.32,1.86a.34.34,0,0,0,0,.14C51.12,33.6,52.32,33,53,32.62a1,1,0,0,0,.47-1.1c0-.13-.53-1.83-1.5-5.08l3.52-1c.76-.22,1.53-.41,2.27-.66a.88.88,0,0,0,.51-1.22c0-.09-1.12-2.34-3.26-6.76a57.66,57.66,0,0,0,11.28,4.48c.39,0,.58.36.58,1q.87,6,2.46,40.31H65.61v5.83l3.81,0v4.88H60.9V70.4l-2,0c0,1.75,0,3.06,0,3.91,0,.62.29.94.91.94s9.73,0,10.6,0a1,1,0,0,0,1-1c0-.08,0-5.84,0-5.85.83,0,1.11-.43,1.11-1.18V63.53A.9.9,0,0,0,71.79,62.65ZM20.44,64.53v.9c0,.29,0,.58,0,.86,0,.06-.1.19-.16.19H17.49v-2ZM45,29.11a.93.93,0,0,1,.15.39q.26,1.68,1.17,8.21l-9.12-5.3,2.49-6.23L32,23.75l3.59-8h0Zm25.5,35.43V66c0,.42-.07.48-.49.49H67.84c-.21,0-.27-.06-.27-.26V64.53Z"/></svg>
+							</a></div>
+
+							<ul class="footer_nav_list">
+								<li><a href="index.html">Main</a></li>
+								<li><a href="exclusive/exclusive.html">Exclusive</a></li>
+								<li><a href="contacts/contacts.html">Contacts</a></li>
+							</ul>
+					
+						</nav>
+						
+				</div>
+				
+				<div class="footer_social">
+					<ul class="social_list">
+						<li><a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 8 17"><g><g><path fill="#fff" d="M5.282 2.96l1.91.005.006-2.666L5.29.294C2.582.39 2.152 1.882 2.1 3.619l-.006 2-1.909-.006L.177 8.28l1.91.005-.022 8 2.545.007.022-8 1.909.005.643-2.665-2.545-.007.005-2c.002-.584.126-.666.638-.665z"/></g></g></svg>
+						</a></li>
+						<li><a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 17 16"><g><g><path fill="#fff" d="M2.193-.046l12 .032a2 2 0 0 1 1.995 2.006l-.008 3-5-.014-.001.354A3.99 3.99 0 0 0 8.183 3.97a3.99 3.99 0 0 0-3.004 1.346l.001-.354-5-.013-.003 1 4.535.012a4 4 0 1 0 6.93.018l4.535.013-.021 8a2 2 0 0 1-2.005 1.994l-12-.032A2 2 0 0 1 .156 13.95l.032-12A2 2 0 0 1 2.193-.046zM8.18 4.97a3 3 0 1 1-.016 6 3 3 0 0 1 .016-6zm-3.468.991c.135-.23.291-.446.467-.645l-.002.646zm6.467-.629c.175.2.33.416.463.648l-.465-.002zm4.998.66l.003-1-.003 1zM12.185 2.98a1 1 0 1 0 2 .005 1 1 0 0 0-2-.005z"/></g></g></svg>
+						</a></li>
+						<li><a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 14"><g><g><path fill="#fff" d="M16.18 1.707c-.27.147-1.078.443-1.83.515.483-.26 1.2-1.113 1.378-1.792-.465.297-1.533.728-2.059.727A3.284 3.284 0 0 0 11.29.13a3.303 3.303 0 0 0-3.226 4.034h-.001c-2.47-.071-5.17-1.319-6.79-3.447-1.005 1.731-.145 3.663.988 4.369-.388.028-1.103-.048-1.439-.378-.026 1.152.523 2.678 2.536 3.237-.389.209-1.075.146-1.374.1.102.973 1.457 2.248 2.943 2.252-.532.612-2.526 1.72-4.76 1.359a9.896 9.896 0 0 0 5.156 1.475c5.32.014 9.465-4.296 9.256-9.627l-.001-.019.001-.041-.001-.049a5.698 5.698 0 0 0 1.603-1.687z"/></g></g></svg>
+						</a></li>
+						<li><a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 8 17"><g><g><path fill="#fff" d="M5.282 2.96l1.91.005.006-2.666L5.29.294C2.582.39 2.152 1.882 2.1 3.619l-.006 2-1.909-.006L.177 8.28l1.91.005-.022 8 2.545.007.022-8 1.909.005.643-2.665-2.545-.007.005-2c.002-.584.126-.666.638-.665z"/></g></g></svg>
+						</a></li>
+						<li><a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 15 17"><g><g><path fill="#fff" d="M6.027 11.65c.358.656 1.411 1.236 2.532 1.24 3.337.008 5.608-2.883 5.619-6.766C14.186 3.192 11.586.453 7.62.442 2.691.43.194 3.791.186 6.601c-.004 1.702.668 3.216 2.116 3.784.237.092.451.005.52-.246.05-.174.162-.611.213-.793.071-.249.045-.336-.147-.553-.416-.47-.682-1.08-.68-1.94.007-2.5 1.976-4.733 5.124-4.725 2.787.008 4.313 1.635 4.308 3.801-.008 2.854-1.338 5.257-3.304 5.252-1.085-.003-1.896-.863-1.634-1.911.316-1.251.924-2.602.926-3.505.003-.81-.451-1.489-1.395-1.491-1.11-.003-2.006 1.09-2.01 2.555-.002.934.328 1.568.328 1.568S3.402 12.98 3.2 13.782c-.184.74-.213 1.557-.188 2.244.403.167.822.306 1.25.423.389-.589.809-1.335 1.027-2.083.127-.441.738-2.716.738-2.716z"/></g></g></svg>
+						</a></li>
+					</ul>
+
+					<div class="footer_social_suscribe">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 13"><g><g><path fill="#fff" d="M18.003 1.578l-.027 9.905c-.003.963-.578 1.522-1.567 1.52l-14.85-.039C.57 12.961-.002 12.399 0 11.436l.027-9.905C.03.568.605.01 1.595.011l14.849.04c.99.002 1.561.564 1.559 1.527zm-1.563-.004s-5.364 2.874-7.045 3.791c-.32.175-.781-.002-.781-.002L1.59 1.536l-.004 1.523L8.61 6.887s.472.18.781.002c1.66-.956 7.045-3.791 7.045-3.791z"/></g></g></svg>
+						<input type="text" placeholder="Suscribe our newsletter...">
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="copyright">Copyright © 2020 Bree Orthonormai. All rights reserved.</div>
+
+		</div>
+
+	</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
